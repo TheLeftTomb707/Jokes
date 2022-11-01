@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css"
 
 const App = () => {
-    const [quote, setQuote] = useState("");
+    const [joke, setJoke] = useState("");
 
     useEffect(() => {
         async function Data() {
@@ -13,14 +13,14 @@ const App = () => {
             <h1>{json.value}</h1>
         </>
         )
-        setQuote(list);
+        setJoke(list);
         }
         Data()
     }, []);
 
     return (
         <div id="content">
-            {quote}
+            {joke}
             <a href="/"><button id="but">Get New Quote</button></a>
         </div>
     );
