@@ -1,4 +1,18 @@
 #content {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    background-color: black;
+    color: whitesmoke;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 7%;
+    font-family: orbitron;
+}
+
+#but {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-family: orbitron;
+    font-size: 120%;
 }
