@@ -21,7 +21,7 @@ const App = () => {
     return (
         <div id="content">
             {joke}
-            <a href="/"><button id="but">Get New Quote</button></a>
+            <a href="/"><button id="but">Get New Joke</button></a>
         </div>
     );
 };
